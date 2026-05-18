@@ -1,0 +1,16 @@
+.horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 33%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
