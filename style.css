@@ -1,16 +1,36 @@
+#stories body {
+    background-color: rgb(147, 201, 236);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+
 .horizontalContainer {
-  display: flex;
-  flex-direction: row;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    justify-content: center;
+    gap: 2%;
 }
 
 .column {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 33%;
-  padding-left: 3%;
-  padding-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    scrollbar-width: none;
+    width: 33%;
+    height: 80vh;
+    margin-top: 5vh;
+    padding: 2%;
+    background-color: black;
+}
+
+br {
+    margin-top: 10px;
 }
