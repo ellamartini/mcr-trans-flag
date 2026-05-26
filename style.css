@@ -6,8 +6,15 @@
     line-height: 22px;
 }
 
+@font-face {
+  font-family: typewriter;
+  src: url('typewriter.woff') format('woff');
+}
 
-
+#frontTitle {
+    font-family: typewriter;
+    color: pink;
+}
 
 .horizontalContainer {
     display: flex;
@@ -29,8 +36,4 @@
     margin-top: 5vh;
     padding: 2%;
     background-color: black;
-}
-
-br {
-    margin-top: 10px;
 }
