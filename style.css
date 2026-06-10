@@ -16,6 +16,28 @@ html, body {
   src: url('typewriter.woff') format('woff');
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 4%;
+    padding: 1%;
+    font-size: 150%;
+}
+
+.headerIcon {
+    width: 15%;
+    align-self: center;
+}
+
+.headerLink {
+    align-self: center;
+}
+
+.headerLink:hover {
+    cursor: pointer;
+}
+
 
 
 
@@ -158,6 +180,11 @@ html, body {
 
 .flagLink {
     cursor: pointer;
+}
+
+.flagLink {
+    width: 33%;
+    margin: 1%;
 }
 
 
