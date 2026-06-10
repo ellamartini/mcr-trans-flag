@@ -43,7 +43,7 @@ html, body {
 #linkContainer {
     display: flex;
     flex-direction: row;
-    width: 17em;
+    width: 15em;
 }
 
 #links {
@@ -89,9 +89,11 @@ html, body {
 }
 
 #sidebarImg {
-    width: 20em;
-    margin-left: 3em;
-    margin-right: 3em;
+    position: absolute;
+    z-index: 1;
+    width: 39%;
+    margin-left: 60%;
+    margin-top: -5%;
 }
 
 
