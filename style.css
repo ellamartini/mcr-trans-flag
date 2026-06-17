@@ -187,6 +187,24 @@ html, body {
     margin: 1%;
 }
 
+.singleColumn {
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 10vh;
+    font-size: 20px;
+}
+
+.storyText p {
+    margin-bottom: 40px;
+}
+
+
+
+
+/* FLAG1 PAGE */
+
+
+
 
 
 
