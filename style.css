@@ -44,12 +44,19 @@ html, body {
 
 /* HOME PAGE */
 
-#typewriterTitle {
+.typewriterTitle {
     font-family: typewriter;
     font-size: 5vw;
     margin-top: 6vh;
     margin-bottom: 8vh;
     margin-left:30px;
+}
+
+#index .typewriterTitle {
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 10px gray;
 }
 
 .horizontalContainer {
