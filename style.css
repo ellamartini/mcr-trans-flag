@@ -3,12 +3,18 @@ html, body {
     margin: 0;
 }
 
-#stories body {
+/* #storiesHomePg body {
     background-color: rgb(147, 201, 236);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     line-height: 22px;
+} */
+
+#storiesHomePg body {
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: rgb(210, 237, 255); */
+    font-size: 19px;
 }
 
 @font-face {
@@ -36,28 +42,16 @@ html, body {
 
 .headerLink:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
-
-
-
-
-
-/* HOME PAGE */
 
 .typewriterTitle {
     font-family: typewriter;
-    font-size: 5vw;
+    font-size: 4vw;
     margin-top: 6vh;
     margin-bottom: 5vh;
     margin-left: 5%;
     /* text-align: center; */
-}
-
-#index .typewriterTitle {
-    color: white;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 2px 2px 10px gray;
 }
 
 .horizontalContainer {
@@ -67,8 +61,22 @@ html, body {
     padding-right: 3em;
     padding-bottom: 5em;
     justify-content: center;
-    /* gap: 2em; */
 }
+
+
+
+/* HOME PAGE */
+
+#index .typewriterTitle {
+    margin-top: 12vh;
+}
+
+/* #index .typewriterTitle {
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 10px gray;
+} */
 
 #linkContainer {
     display: flex;
@@ -94,7 +102,7 @@ html, body {
 }
 
 #arrows img {
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
     width: 100%;
     visibility: hidden;
 }
@@ -121,7 +129,7 @@ html, body {
 #sidebarImg {
     position: absolute;
     z-index: 1;
-    width: 39%;
+    width: 37%;
     margin-left: 60%;
     margin-top: -5%;
 }
@@ -206,13 +214,29 @@ html, body {
     margin-bottom: 40px;
 }
 
+#titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+}
+
 
 
 
 /* FLAG1 PAGE */
 
 
+/* FLAG3 PAGE */
 
+#flag3 {
+    background-color: black;
+    background-image: url('flag02BLANK.png');
+    background-size: 100vw;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 
