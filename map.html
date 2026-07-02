@@ -9,25 +9,29 @@
 
 <body>
 
-    <img id="mapPageBg" src="bw-map.jpg">
+<!-- background image is controlled in the css file -->
 
-    <div style="background-color:white;" class="menu">
+    <!-- header links -->
+    <div class="headerContainer">
         <p class="headerIcon"><a href="index.html">[logo]</a></p>
-        <img style="width: 11%;" class="headerLink" onclick="location.href = 'map.html';" src="flag-icon.png">
-        <img style="width: 10%;" class="headerLink" onclick="location.href = 'stories-home.html';" src="stories-icon.png">
-        <img style="width: 10%;" class="headerLink" onclick="location.href = 'doc.html';" src="doc-icon.png">
-        <img style="width: 10%;" class="headerLink" onclick="location.href = 'participate.html';" src="participate-icon.png">
-        <img style="width: 7%;" class="headerLink" onclick="location.href = 'blog.html';"src="blog-icon.png">
+        <img style="width: 11%;" class="headerLink" onclick="location.href = 'map.html';" src="assets/flag-icon.png">
+        <img style="width: 10%;" class="headerLink" onclick="location.href = 'stories.html';" src="assets/stories-icon.png">
+        <img style="width: 10%;" class="headerLink" onclick="location.href = 'doc.html';" src="assets/doc-icon.png">
+        <img style="width: 10%;" class="headerLink" onclick="location.href = 'participate.html';" src="assets/participate-icon.png">
+        <img style="width: 7%;" class="headerLink" onclick="location.href = 'blog.html';"src="assets/blog-icon.png">
     </div>
 
-    <p class="typewriterTitle" style="background-color:white;margin-right:65%;">the flag</p>
+    <!-- page title -->
+    <p class="typewriterTitle" style="background-color:white;margin-right:37%;padding:15px;">what is the mcr trans flag project?</p>
 
-    <p id="aboutBtn" style="background-color:white;color:deeppink;width:fit-content;margin-left:15%;font-size:25px;padding:5px;visibility:hidden;" >ABOUT</p>
+    <!-- button to reopen the "about" text box -->
+    <p id="expandBtn" class="glow">EXPAND ⬇️</p>
 
+    <!-- "about" text box -->
     <div id="aboutDiv" style="background-color:white;">
-        <p id="closeBtn"><span id="btnText">[ <u>CLOSE</u> ]</span></p>
+        <p id="closeBtn"><span id="closeBtnText">[ <u>CLOSE</u> ]</span></p>
         <div id="aboutText">
-            <h1>ABOUT</h1>
+            <h1 style="font-family:typewriter;">ABOUT</h1>
             <p>[blurb explaining the project]</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

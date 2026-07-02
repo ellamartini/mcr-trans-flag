@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="index">
+<html id="indexPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,42 +9,49 @@
 
 <body>
 
-    <img style="width:100%;top:0;position:absolute;opacity:40%;z-index:-1;overflow:hidden;" src="hands_banner.png">
+    <img style="width:100%;top:-20px;position:absolute;opacity:50%;z-index:-1;" src="assets/hands_banner.png">
 
-    <p class="typewriterTitle">MCR TRANS FLAG PROJECT</p>
-    <!-- <img id="homeTitle" style="width:75%;margin-top:5vh;margin-bottom:6vh;margin-left:3%;" src="homeTitle.jpg"> -->
+    <p class="typewriterTitle">mcr trans flag project</p>
 
+    <!-- ⬇️ CONTAINER TO PROPERLY POSITION THE LINK SIDEBAR, COLLAGE, AND CHEERARD -->
     <div class="horizontalContainer">
+        
+        <!-- link sidebar -->
         <div class="homeColumn" id="linkContainer">
             <div id="links">
-                <a id="mapLink" href="map.html"><img src="flag-icon.png"></a>
-                <a id="storiesLink" href="stories-home.html"><img src="stories-icon.png"></a>
-                <a id="docLink" href="doc.html"><img src="doc-icon.png"></a>
-                <a id="participateLink" href="participate.html"><img src="participate-icon.png"></a>
-                <a id="blogLink" href="blog.html"><img src="blog-icon.png"></a>
+                <a id="mapLink" href="map.html"><img src="assets/flag-icon.png"></a>
+                <a id="storiesLink" href="stories.html"><img src="assets/stories-icon.png"></a>
+                <a id="docLink" href="doc.html"><img src="assets/doc-icon.png"></a>
+                <a id="participateLink" href="participate.html"><img src="assets/participate-icon.png"></a>
+                <a id="blogLink" href="blog.html"><img src="assets/blog-icon.png"></a>
             </div>
         </div>
 
+        <!-- arrows (hidden until you hover over the links. this is controlled using event listeners in the index.js file) -->
         <div class="homeColumn" id="arrows">
-            <img id="arrow1" src="arrow1.png">
-            <img id="arrow2" src="arrow2.png">
-            <img id="arrow3" src="arrow3.png">
-            <img id="arrow4" src="arrow4.png">
-            <img id="arrow5" src="arrow5.png">
+            <img id="arrow1" src="assets/arrow1.png">
+            <img id="arrow2" src="assets/arrow2.png">
+            <img id="arrow3" src="assets/arrow3.png">
+            <img id="arrow4" src="assets/arrow4.png">
+            <img id="arrow5" src="assets/arrow5.png">
         </div>
 
+        <!-- image in the center. i don't know what this is yet -->
         <div class="homeColumn" id="homeImg">
-            <p style="margin-left:180px;">placeholder img (put some kind of collage here?)</p>
-            <img src="IMG_7104.png">
+            <p style="margin-left:180px;">(put some kind of flag collage here?)</p>
+            <!-- <img src="assets/IMG_7104.png"> -->
         </div>
 
-        <div id="sidebarImg">
-            <img style="width:100%;" src="cheerard.png">
+        <!-- cheerard drawing ❤️ -->
+        <div id="cheerard">
+            <img style="width:100%;" src="assets/cheerard.png">
         </div>
     </div>
 
-    <img style="width:100%;bottom:0;position:absolute;opacity:50%;z-index:-1;" src="blueBG.png">
-    <img style="width:100%;bottom:0;position:absolute;" src="fuck-you-copy.gif">
+
+    <!-- fuck you! graphic on the bottom -->
+    <img style="width:100%;bottom:0;position:absolute;opacity:50%;z-index:-1;" src="assets/blueBG.png">
+    <img style="width:100%;bottom:0;position:absolute;" src="assets/fuck-you-copy.gif">
 
 
     <script src="index.js"></script>
