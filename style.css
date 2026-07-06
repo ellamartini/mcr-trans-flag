@@ -56,10 +56,16 @@ html, body {
     margin-top: 12vh;
 }
 
+#beadTitle {
+    width: 90%;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+}
+
 #linkContainer {
     display: flex;
     flex-direction: row;
-    width: 18em;
+    width: 16em;
 }
 
 #links {
@@ -72,9 +78,9 @@ html, body {
 }
 
 #arrows {
-    width: 6%;
+    width: 5%;
     z-index: 1;
-    margin-left: 2em;
+    margin-left: 1.5em;
     margin-right: 0;
 }
 
@@ -86,7 +92,8 @@ html, body {
 
 #homeImg {
     width: 85em;
-    margin-left: -50px;
+    margin-left: -40px;
+    margin-top: -10px;
 }
 
 #homeImg img {
@@ -104,9 +111,9 @@ html, body {
 #cheerard {
     position: absolute;
     z-index: 1;
-    width: 37%;
-    margin-left: 63%;
-    margin-top: -5%;
+    width: 28%;
+    margin-left: 65%;
+    margin-top: -10%;
 }
 
 
@@ -192,6 +199,10 @@ html, body {
 #storiesPage body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
+}
+
+#storiesSubtitle {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column {
