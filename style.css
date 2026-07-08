@@ -119,15 +119,16 @@ html, body {
 
 
 
-/* MAP PAGE ("THE FLAG") */
+/* ABOUT PAGE ("THE FLAG") */
 
-#mapPage {
-    background-image: url('assets/bw-map.jpg');
+#aboutPage {
+    background-image: url('assets/home_collage_DRAFT.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position-y: 15vh;
 }
 
-#mapPage .headerLink {
+#aboutPage .headerLink {
     background-color: white;
     padding: 5px;
 }
@@ -135,6 +136,7 @@ html, body {
 #aboutDiv {
     width: 40%;
     margin-left: 15%;
+    margin-bottom: 10vh;
 }
 
 #aboutText {
