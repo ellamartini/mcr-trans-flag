@@ -294,7 +294,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
-    background-color: lightblue;
+    background-color: rgb(195, 231, 244);
     padding: 30px;
     font-family: 'Courier New', Courier, monospace;
     border-style: solid;
@@ -307,7 +307,50 @@ html, body {
 
 /* PARTICIPATE PAGE */
 
+#contentBg {
+    background-color: rgb(255, 211, 218);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 3%;
+    border-style: solid;
+}
 
+#participatePage h1 {
+    font-family: typewriter;
+    text-align: center;
+    font-size: 40px;
+}
+
+#participatePage #subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#googleForm {
+    margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5vh;
+    width: 70%;
+}
 
 
 /* BLOG PAGE */
+
+#blogPage {
+    overflow-y: hidden;
+}
+
+#substack {
+    margin-top: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5vh;
+}
