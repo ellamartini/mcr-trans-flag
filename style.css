@@ -221,13 +221,21 @@ html, body {
     padding: 2%;
 }
 
+#storiesPg .horizontalContainer {
+    align-items: flex-start;
+    gap: 2%;
+}
+
 .flagLink {
     cursor: pointer;
 }
 
 .flagLink {
     width: 33%;
-    margin: 1%;
+}
+
+#flag2 {
+    width: 30%;
 }
 
 #titleContainer {

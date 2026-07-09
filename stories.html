@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="storiesHomePg">
+<html id="storiesPg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,37 +33,37 @@
 
     <!-- horizontal container to arrange the flag images -->
     <div class="horizontalContainer">
-        <img class="flagLink" id="flag1" onclick="location.href = 'flag1.html';" src="assets/flag01.png">
-        <img class="flagLink" id="flag2" onclick="location.href = 'flag2.html';" src="assets/flag02.png">
-        <img class="flagLink" id="flag3" onclick="location.href = 'flag3.html';" src="assets/flag2.png">
+        <img class="flagLink" id="flag1" onclick="location.href = 'flag1.html';" src="assets/flag01_front.png">
+        <img class="flagLink" id="flag2" onclick="location.href = 'flag2.html';" src="assets/flag02_front.png">
+        <img class="flagLink" id="flag3" onclick="location.href = 'flag3.html';" src="assets/flag03_front.png">
     </div>
 
 
     <!-- script to control the hover effect on the images -->
     <script>
-        // const flag1 = document.getElementById('flag1');
-        // flag1.addEventListener('mouseover', function() {
-        //     flag1.src = 'assets/flag01_back.png';   
-        // })
-        // flag1.addEventListener('mouseout', function() {
-        //     flag1.src = 'assets/flag01.png';
-        // })
+        const flag1 = document.getElementById('flag1');
+        flag1.addEventListener('mouseover', function() {
+            flag1.src = 'assets/flag01_back.png';   
+        })
+        flag1.addEventListener('mouseout', function() {
+            flag1.src = 'assets/flag01_front.png';
+        })
         
         const flag2 = document.getElementById('flag2');
         flag2.addEventListener('mouseover', function() {
             flag2.src = 'assets/flag02_back.png';   
         })
         flag2.addEventListener('mouseout', function() {
-            flag2.src = 'assets/flag02.png';
+            flag2.src = 'assets/flag02_front.png';
         })
 
-        // const flag3 = document.getElementById('flag3');
-        // flag3.addEventListener('mouseover', function() {
-        //     flag3.src = 'assets/flag03_back.png';   
-        // })
-        // flag3.addEventListener('mouseout', function() {
-        //     flag3.src = 'assets/flag03.png';
-        // })
+        const flag3 = document.getElementById('flag3');
+        flag3.addEventListener('mouseover', function() {
+            flag3.src = 'assets/flag03_back.png';   
+        })
+        flag3.addEventListener('mouseout', function() {
+            flag3.src = 'assets/flag03_front.png';
+        })
     </script>
 
 
