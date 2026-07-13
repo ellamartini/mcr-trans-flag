@@ -364,3 +364,7 @@ html, body {
     margin-right: 20%;
     margin-bottom: 5vh;
 }
+
+#blogPage .horizontalContainer {
+    align-items: flex-start;
+}
