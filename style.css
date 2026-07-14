@@ -321,6 +321,11 @@ html, body {
 
 /* PARTICIPATE PAGE */
 
+#participatePage .horizontalContainer {
+    align-items: flex-start;
+    gap: 3%;
+}
+
 #contentBg {
     background-color: rgb(255, 211, 218);
     width: 60%;
