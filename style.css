@@ -131,10 +131,11 @@ html, body {
 #aboutPage .headerLink {
     background-color: white;
     padding: 5px;
+    padding-bottom: 0;
 }
 
 #aboutDiv {
-    width: 40%;
+    width: 55%;
     margin-left: 15%;
     margin-bottom: 10vh;
     border-style: solid;
@@ -326,9 +327,9 @@ html, body {
     gap: 3%;
 }
 
-#contentBg {
+.participateContentPink {
     background-color: rgb(255, 211, 218);
-    width: 60%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vh;
@@ -337,19 +338,49 @@ html, body {
     border-style: solid;
 }
 
+.participateContentBlue {
+    background-color: rgb(195, 231, 244);
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 3%;
+    border-style: solid;
+}
+
+.participateText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
 #participatePage h1 {
     font-family: typewriter;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 80px;
 }
 
-#participatePage #subtitle {
+#participatePage h3 {
+    padding-top: 30px;
+}
+
+.subtitle {
     font-family: 'Courier New', Courier, monospace;
-    width: 45vw;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 18px;
+}
+
+.narrowSubtitle {
+    font-family: 'Courier New', Courier, monospace;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
 }
 
 #googleForm {
