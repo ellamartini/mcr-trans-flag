@@ -68,6 +68,20 @@ html, body {
     width: 16em;
 }
 
+#ticket {
+    position: absolute;
+    z-index: 2;
+    width: 8%;
+    right: 3%;
+    top: 7vh;
+    transform: rotate(13deg);
+}
+
+#ticket:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
 #links {
     display: flex;
     flex-direction: column;

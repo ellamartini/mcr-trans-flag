@@ -13,6 +13,18 @@
 
     <img id="beadTitle" src="assets/beadTitle.png">
 
+    <img id="ticket" src="assets/ticket_flash.gif" onclick="location.href = 'credits.html';">
+
+    <script>
+        const ticket = document.getElementById('ticket');
+        ticket.addEventListener('mouseover', function() {
+            ticket.src = 'assets/ticket_flash_white.png';   
+        })
+        ticket.addEventListener('mouseout', function() {
+            ticket.src = 'assets/ticket_flash.gif';
+        })
+    </script>
+
     <!-- ⬇️ CONTAINER TO PROPERLY POSITION THE LINK SIDEBAR, COLLAGE, AND CHEERARD -->
     <div class="horizontalContainer">
         
