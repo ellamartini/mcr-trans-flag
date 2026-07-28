@@ -273,6 +273,8 @@ footer {
     margin-right: 28%;
     margin-top: 10vh;
     font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .storyText p {
@@ -283,6 +285,15 @@ footer {
 
 
 /* FLAG 1 PAGE */
+
+#flag1Page {
+    background-image: url('assets/cotton.jpg');
+    background-size: 100vw;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 
 /* FLAG 2 PAGE */
